@@ -45,7 +45,7 @@ public class ExtraCredits {
 
         }
     }
-    
+
     public void insert() {
         Statement stmt = null;
         Scanner in  = new Scanner(System.in);
