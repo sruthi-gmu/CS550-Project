@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>employee_details</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="project.css">
+</head>
+<body>
+<div class="container">
+  <h1> DEPENDENT DETAILS </h1>
+  <form method = "post" action = "/project/dependent">
+
+      <div class="row">
+      <div class="col-25">
+        <label for="dependent_name" id="dependent_name">Dependent Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" name="dependent_name">
+      </div>
+    </div>
+      
+    <div class="row">
+    <div class="col-25">
+      <label for="sex">Sex</label>
+    </div>
+    <div class="col-75">
+      <label class="radio"> <input type="radio" name="sex" value="M" >Male</label>
+      <label class="radio"> <input type="radio" name="sex" value="F">Female</label>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-25">
+      <label for="bdate" id="bdate"> Date of Birth:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" name="bdate" placeholder="dd-mm-yy">
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="relationship" id="relationship"> Relationship</label>
+      </div>
+      <div class="col-75">
+        <input type="text"  name="relationship">
+      </div>
+    </div>
+      
+    <div class="row">
+    <div class="col-25">
+      <label for="moredependent">Have more dependent?</label>
+    </div>
+    <div class="col-75">
+      <label class="radio"> <input type="radio" name="moredependent" value = "Y">Yes</label>
+      <label class="radio"> <input type="radio" name="moredependent" value="N">No</label>
+    </div>
+  </div>
+
+  
+  <div class="row">
+      <input type="submit" value="Next">
+  </div>
+      
+</div>
+</div>
+</body>
+</html>

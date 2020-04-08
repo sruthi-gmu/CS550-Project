@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea, input[type=email],input[type=url],input[type=date],input[type=list]{
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label, span {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+    color: black;
+}
+.previous {
+  background-color: black;
+  color: white;
+}
+a:hover {
+  background-color: gray;
+  color: black;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+
+input[type=submit],input[type=button] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float:center;
+}
+
+input[type=submit]:hover,input[type=button]:hover {
+  background-color: gray;
+}
+
+.container {
+  padding: 20px;
+  align-content: center;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.heading h1 {
+  style="font-color:black; font-size:30px;
+  border: none;
+  text-align: left;
+  padding: 20px;
+}
+
+.container h1 {
+    text-align:center;
+    padding: 10px;
+
+  }
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  div {
+    width:100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    align-content: center;
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>job_details</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="project.css">
+<script src="totalHours.js"> </script>
+</head>
+    
+<body>
+<div class="container">
+  <h1> JOB DETAILS</h1>
+  <form method = "post" action = "/project/job" onsubmit="return totalHours()">
+
+    <h3> Project Hours</h3>
+    
+    <div class="row">
+    <div class="col-25">
+      <label for="pno"> Product X</label>
+    </div>
+    <div class="col-75">
+        <input type="text" id="p1" name="p1" value = "0">
+    </div>
+    </div>
+    
+    <div class="row">
+    <div class="col-25">
+      <label for="pno"> Product Y</label>
+    </div>
+    <div class="col-75">
+        <input type="text" id="p2" name="p2" value = "0" >
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="col-25">
+      <label for="pno"> Product Z</label>
+    </div>
+    <div class="col-75">
+        <input type="text" id="p3" name="p3" value = "0">
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="col-25">
+      <label for="pno"> Computerization</label>
+    </div>
+    <div class="col-75">
+        <input type="text" id="p10" name="p10" value = "0">
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="col-25">
+      <label for="pno"> Reorganization</label>
+    </div>
+    <div class="col-75">
+        <input type="text" id="p20" name="p20" value = "0">
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="col-25">
+      <label for="pno"> Newbenifits</label>
+    </div>
+    <div class="col-75">
+        <input type="text" id="p30" name="p30" value = "0">
+    </div>
+    </div>
+      
+    <div class="row">
+    <div class="col-25">
+      <label for="dependent"> Does the employee have dependents?</label>
+    </div>
+    <div class="col-75">
+        <label class="radio"> <input type="radio" name="dependent" value="yes">Yes</label>
+        <label class="radio"> <input type="radio" name="dependent" value="no" selcted>No</label>
+    </div>
+    </div>
+
+  <div class="row">
+      <input type="submit" value=Next>
+  </div>
+      
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>employee_details</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="project.css">
+</head>
+<body>
+<div class="container">
+  <h1> EMPLOYEE DETAILS </h1>
+  <form method = "post" action = "/project/employee">
+
+    <div class="row">
+      <div class="col-25">
+        <label for="fname" id="fname">First Name:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="fname" required>
+      </div>
+    </div>
+      <div class="row">
+      <div class="col-25">
+        <label for="minit" id="minit">Middle Initials:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" name="minit">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="lname" id="lname">Last Name:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" name="lname" required>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="ssn" id="ssn">SSN:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" name="ssn" required>
+      </div>
+    </div>
+    
+    <div class="row">
+    <div class="col-25">
+      <label for="bdate" id="bdate"> Date of Birth:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" name="bdate" placeholder="dd-mm-yy">
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="address"> Address</label>
+      </div>
+      <div class="col-75">
+        <input type="text"  name="address">
+      </div>
+    </div>
+      
+    <div class="row">
+    <div class="col-25">
+      <label for="sex">Sex</label>
+    </div>
+    <div class="col-75">
+      <label class="radio"> <input type="radio" name="sex" value="M">Male</label>
+      <label class="radio"> <input type="radio" name="sex" value="F">Female</label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="salary" id="salary"> Salary</label>
+    </div>
+    <div class="col-75">
+      <input type="text"  name="salary" >
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="superssn" id="superssn"> Supervisor SSN</label>
+    </div>
+    <div class="col-75">
+      <input type="text" name="superssn">
+    </div>
+  </div>
+      
+  <div class="row">
+    <div class="col-25">
+      <label for="dno" id="dno"> Department Number</label>
+    </div>
+    <div class="col-75">
+      <input type="text" name="dno">
+    </div>
+  </div>
+  
+
+  <div class="row">
+      <input type="submit" value="Next">
+  </div>
+      
+</div>
+</div>
+</body>
+</html>
